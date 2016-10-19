@@ -4,7 +4,7 @@
 
 ## Descricao
 
-Primeiro Trabalho de Laboratório de Compiladores
+**Primeiro Trabalho de Laboratório de Compiladores**
 
 A partir do analisador sintático da linguagem Krakatoa, faça um compilador que constrói a ASA, faz a análise semântica  e gera código idêntico ao original, exceto que sem os comentários. Podem existir pequenas diferenças entre o código gerado e o original, como uma declaração  "int a, b, c;"  ser desdobrada em "int a; int b; int c;". O código gerado deve estar corretamente indentado.
  
@@ -17,7 +17,7 @@ Não modifique o modo como os erros são sinalizados. Utilize sempre a variável
 Todos os arquivos devem ter um comentário inicial com o nome dos integrantes do grupo. Sem este comentário o trabalho não será aceito.
 Faça todos os testes correspondentes aos possíveis erros léxicos, sintáticos e semânticos. 
 
-Importante: métodos e variáveis estáticas e classes e métodos finais não precisam ser implementados. Há testes para estas funcionalidades no diretório tests mas estes devem ser ignorados.
+**Importante**: métodos e variáveis estáticas e classes e métodos finais não precisam ser implementados. Há testes para estas funcionalidades no diretório tests mas estes devem ser ignorados.
   
 -----------
 
