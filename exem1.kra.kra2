@@ -1,0 +1,6 @@
+Class Program {
+   public void run() {
+      int i;
+      int b;
+   }
+}
