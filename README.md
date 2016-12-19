@@ -33,6 +33,6 @@ este criará, no diretório corrente,
 
 ## Observações gerais sobre o trabalho:
 
-qualquer parte do trabalho poderá ser copiada de qualquer grupo, desde que este fato seja escrito na folha de capa do trabalho. Trabalhos com um número significativo de trechos iguais sem a devida observação na capa receberão zero. A nota do trabalho diminui com a quantidade de trechos copiados. De qualquer forma, não mais do que 10% do código pode ser copiado, mesmo com observações na folha de capa. Estes 10% se referem aos trechos feitos por você, não ao total do compilador, cuja maior parte foi fornecida na página da disciplina;
-faça o seu trabalho utilizando corretamente os princípios de orientação a objetos. Procure o professor em dúvida;
-não serão aceitos trabalhos atrasados.
+O intuito deste trabalho é criar a ASA (Árvore sintática abstrata) e realizar a análise semântica de um código fonte em Krakatoa. 
+A ASA é uma representação abstrata (simplificada) da estrutura semântica de um código fonte escrito em uma certa linguagem de programação. Cada nó da árvore denota um construtor no código fonte. A sintaxe é abstrata no sentido que ela não representa cada detalhe que aparece na sintaxe real. Por exemplo, agrupar parênteses está implícito na estrutura da árvore, e uma construção sintática como um condicional SE cond ENTÃO expr pode ser denotada por um simples nós com suas ramificações.
+Após concluída esta fase, este projeto servirá de base para a segunda fase, onde será implementada a geração de código em C, ou seja, o compilador irá gerar um código fonte em C a partir de um código fonte em Krakatoa (uma linguagem orientada a objetos, mais precisamente um subconjunto de Java).
