@@ -22,6 +22,9 @@ Faça todos os testes correspondentes aos possíveis erros léxicos, sintáticos
 -----------
 
 ## Execucao
+
+A maneira mais fácil de executar este projeto é abri-lo no Eclipse e rodar passando um diretório com arquivos .kra como parâmetro.
+Você pode fazer isso utilizando a opção RUN CONFIGURATIONS > ARGUMENTS. 
   
 Note que o compilador fornecido, ao ser chamado passando um diretório como parâmetro, compila todos os arquivos “*.kra” daquele diretório e produz um relatório de erros. Assim, ao chamar o compilador,
             C:\Dropbox\16-2\LC\krakatoa\bin>java -cp . comp.Comp "C:\Dropbox\16-2\LC\tests"
